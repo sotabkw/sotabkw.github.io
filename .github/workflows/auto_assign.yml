@@ -26,4 +26,3 @@ jobs:
           NUMBER: ${{ github.event.pull_request.number }}
           ASSIGNEE: ${{ github.event.pull_request.user.login }}
         if: ${{ toJSON(github.event.pull_request.reviewer) == '[]' }}
-
