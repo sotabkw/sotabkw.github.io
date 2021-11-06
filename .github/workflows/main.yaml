@@ -23,5 +23,5 @@ jobs:
         run: git diff --exit-code
       - name: Run lint
         run: yarn lint
-      - name: Run typecheck
-        run: yarn typecheck
+      - name: Run type-check
+        run: yarn type-check

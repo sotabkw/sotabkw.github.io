@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "typecheck": "tsc --noEmit",
+    "type-check": "tsc --noEmit",
     "format": "prettier --write \"**/*.{js,ts,jsx,tsx,json}\" --ignore-path .gitignore .",
     "lint": "next lint",
     "build": "next build",
