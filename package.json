@@ -6,6 +6,7 @@
     "dev": "next dev",
     "typecheck": "tsc --noEmit",
     "format": "prettier --write \"**/*.{js,ts,jsx,tsx,json}\" --ignore-path .gitignore .",
+    "lint": "next lint",
     "build": "next build",
     "start": "next start"
   },
@@ -17,6 +18,8 @@
   "devDependencies": {
     "@types/node": "^16.11.6",
     "@types/react": "^17.0.34",
+    "eslint": "7.0.0",
+    "eslint-config-next": "^12.0.3",
     "prettier": "2.4.1",
     "typescript": "^4.4.4"
   }
