@@ -1,4 +1,5 @@
 # sooota_bkw
+
 https://sooota-bkw.vercel.app/
 
 Build with
@@ -7,13 +8,11 @@ Build with
 - next.js<br>
 - tailwind-css<br>
 
-
 # install dependencies
 
 ```bash
 yarn install
 ```
-
 
 ## start dev server
 
