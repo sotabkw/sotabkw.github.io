@@ -29,7 +29,7 @@ export const ResumeBar: React.VFC<Props> = (props) => {
       <article>
         <div className="grid md:grid-cols-8 xl:grid-cols-5 items-start relative rounded-xl p-3 sm:p-5 xl:p-6 overflow-hidden">
           <h3 className="font-semibold text-gray-900 md:col-start-3 md:col-span-6 xl:col-start-3 xl:col-span-5 mb-1 ml-9 md:ml-0">
-            <div className="flex text-xl font-medium text-gray-800">
+            <div className="flex text-xl font-sans text-gray-800">
               <a
                 href={incHref}
                 className="text-lg text-blue-400 flex hover:text-blue-500 transition-colors"
@@ -92,7 +92,7 @@ export const ResumeBar: React.VFC<Props> = (props) => {
               </svg>
             )}
 
-            <div className="flex text-sm transition-colors pt-2">
+            <div className="flex text-sm transition-colors  font-sans pt-2">
               <div className="mr-2">
                 <CalenderIcon />
               </div>
@@ -100,7 +100,7 @@ export const ResumeBar: React.VFC<Props> = (props) => {
             </div>
           </time>
           {body && (
-            <p className="md:col-start-3 md:col-span-6 xl:col-span-3 ml-9 md:ml-0  text-gray-500">
+            <p className="font-sans md:col-start-3 md:col-span-6 xl:col-span-3 ml-9 md:ml-0  text-gray-500">
               <div className="flex text-sm transition-colors pt-2">
                 <div className="mr-2">
                   <ActivityIcon />
