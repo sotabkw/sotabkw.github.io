@@ -8,7 +8,8 @@
     "format": "prettier --write \"**/*.{js,ts,jsx,tsx,json}\" --ignore-path .gitignore .",
     "lint": "next lint",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "export": "next export"
   },
   "dependencies": {
     "next": "12.0.3",
