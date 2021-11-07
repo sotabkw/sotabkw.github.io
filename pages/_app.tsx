@@ -1,9 +1,9 @@
 import '../styles/globals.css'
 import 'tailwindcss/tailwind.css'
-import { NextPage } from 'next'
 import { AppProps } from 'next/app'
+import React from 'react'
 
-const MyApp: NextPage<AppProps> = ({ Component, pageProps }) => {
+const MyApp = ({ Component, pageProps }: AppProps) => {
   return (
     <div>
       <Component {...pageProps} />
