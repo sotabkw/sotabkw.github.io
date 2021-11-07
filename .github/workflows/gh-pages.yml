@@ -18,8 +18,8 @@ jobs:
         with:
           node-version: 14.x
 
-      - name: Install NPM packages
-        run: yarn ci
+      - name: Install YARN packages
+        run: yarn install --frozen-lockfile
 
       - name: Build Next.js app
         run: yarn run build
