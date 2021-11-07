@@ -1,27 +1,18 @@
-# sooota_bkw
 
-https://sooota-bkw.vercel.app/
+<!--
+**watanabe-sota/watanabe-sota** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-Build with
+- 🔭 I’m currently working on ...
+- 🌱 I’m currently learning ...
+- 👯 I’m looking to collaborate on ...
+- 🤔 I’m looking for help with ...
+- 💬 Ask me about ...
+- 📫 How to reach me: ...
+- 😄 Pronouns: ...
+- ⚡ Fun fact: ...
+-->
 
-- typescript<br>
-- next.js<br>
-- tailwind-css<br>
+<a href="https://github.com/watanabe-sota/github-readme-stats">
+  <img align="left" src="https://github-readme-stats.vercel.app/api?username=watanabe-sota&theme=dark&count_private=true&show_icons=true" />
+</a>
 
-# install dependencies
-
-```bash
-yarn install
-```
-
-## start dev server
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
