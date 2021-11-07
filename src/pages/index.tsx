@@ -1,7 +1,8 @@
 import type { NextPage } from 'next'
+import { PageLayout } from '@components/layout/indexPage'
 
 const Home: NextPage = () => {
-  return <div className="bg-blue-400 p-24 text-center font-bold">test</div>
+  return <PageLayout />
 }
 
 export default Home
