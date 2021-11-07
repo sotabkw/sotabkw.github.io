@@ -1,4 +1,4 @@
-export const careerContents = [
+export const CareerContents = [
   {
     title: 'crunchtimer Inc',
     date: 'June 2020 - July 2021',

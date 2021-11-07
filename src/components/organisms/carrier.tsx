@@ -1,6 +1,6 @@
 import React from 'react'
 import { ResumeBar } from '@components/organisms/resumeBar'
-import { careerContents } from '@components/util/constant/carrierContent'
+import { CareerContents } from '@components/util/constant/carrierContent'
 import { ChevronIcon } from '@components/uiParts/Icon/chevron'
 
 export const Carrier: React.VFC = () => {
@@ -13,14 +13,14 @@ export const Carrier: React.VFC = () => {
         Carrier
       </h1>
       <ul>
-        {careerContents.map((cc, index) => (
+        {CareerContents.map((cc, index) => (
           <li key={index} className="list-none">
             <ResumeBar
               date={cc.date}
               title={cc.title}
               body={cc.body}
               incHref={cc.incHref}
-              isLast={index === careerContents.length - 1}
+              isLast={index === CareerContents.length - 1}
               isFirst={index === 0}
             />
           </li>
