@@ -21,6 +21,7 @@ export const Carrier: React.VFC = () => {
               body={cc.body}
               incHref={cc.incHref}
               isLast={index === CareerContents.length - 1}
+              isPreset={cc.isPresent}
               isFirst={index === 0}
             />
           </li>
