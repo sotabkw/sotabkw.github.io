@@ -1,5 +1,4 @@
 import React from 'react'
-import Image from 'next/image'
 import { LocationIcon } from '@components/uiParts/Icon/location'
 import { MailIcon } from '@components/uiParts/Icon/mail'
 import { GithubIcon } from '@components/uiParts/Icon/github'
@@ -11,7 +10,7 @@ export const MainProfile: React.VFC = () => {
       <div className="md:fixed">
         <div className="md:block">
           <div className="flex justify-center mx-auto mx-4">
-            <Image
+            <img
               className="rounded-full"
               src="/favicon.ico"
               width={150}
