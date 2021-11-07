@@ -19,6 +19,7 @@ export const Carrier: React.VFC = () => {
               date={cc.date}
               title={cc.title}
               body={cc.body}
+              incHref={cc.incHref}
               isLast={index === careerContents.length - 1}
               isFirst={index === 0}
             />

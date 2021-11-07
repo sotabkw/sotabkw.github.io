@@ -6,6 +6,7 @@ import { CalenderIcon } from '@components/uiParts/Icon/calender'
 type Props = {
   date: string
   title: string
+  incHref: string
   body?: string
   isLast?: boolean
   isFirst?: boolean
@@ -21,7 +22,7 @@ type Props = {
  */
 
 export const ResumeBar: FC<Props> = (props) => {
-  const { title, date, body, isLast, isFirst } = props
+  const { title, date, body, isLast, isFirst, incHref } = props
 
   return (
     <li className="list-none">
@@ -29,10 +30,15 @@ export const ResumeBar: FC<Props> = (props) => {
         <div className="grid md:grid-cols-8 xl:grid-cols-5 items-start relative rounded-xl p-3 sm:p-5 xl:p-6 overflow-hidden">
           <h3 className="font-semibold text-gray-900 md:col-start-3 md:col-span-6 xl:col-start-3 xl:col-span-5 mb-1 ml-9 md:ml-0">
             <div className="flex text-xl font-medium text-gray-800">
-              <div className="mr-2 flex items-center">
-                <IncIcon />
-              </div>
-              {title}
+              <a
+                href={incHref}
+                className="text-lg text-blue-400 flex hover:text-blue-500 transition-colors"
+              >
+                <div className="mr-2 flex items-center">
+                  <IncIcon />
+                </div>
+                {title}
+              </a>
             </div>
           </h3>
           <time
