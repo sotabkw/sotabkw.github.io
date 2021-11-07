@@ -21,7 +21,7 @@ type Props = {
  * @param props.isFirst 最初のキャリアかどうか
  */
 
-export const ResumeBar: FC<Props> = (props) => {
+export const ResumeBar: React.VFC<Props> = (props) => {
   const { title, date, body, isLast, isFirst, incHref } = props
 
   return (
@@ -92,7 +92,7 @@ export const ResumeBar: FC<Props> = (props) => {
               </svg>
             )}
 
-            <div className="flex text-sm text-gray-400 transition-colors pt-2">
+            <div className="flex text-sm transition-colors pt-2">
               <div className="mr-2">
                 <CalenderIcon />
               </div>
@@ -101,7 +101,7 @@ export const ResumeBar: FC<Props> = (props) => {
           </time>
           {body && (
             <p className="md:col-start-3 md:col-span-6 xl:col-span-3 ml-9 md:ml-0  text-gray-500">
-              <div className="flex text-sm text-gray-400 transition-colors pt-2">
+              <div className="flex text-sm transition-colors pt-2">
                 <div className="mr-2">
                   <ActivityIcon />
                 </div>

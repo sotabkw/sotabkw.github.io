@@ -1,5 +1,7 @@
 import React from 'react'
 import { ChevronIcon } from '@components/uiParts/Icon/chevron'
+import { SkillTag } from '@components/uiParts/skillTag'
+import { SkillContents } from '@components/util/constant/skill'
 
 export const Skill: React.VFC = () => {
   return (
@@ -10,21 +12,12 @@ export const Skill: React.VFC = () => {
         </div>
         Skill
       </h1>
-      <ul>
-        <li className="mb-6 flex flex-wrap px-7">
-          <span className="mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium bg-gray-200">
-            Next.js
-          </span>
-          <span className="mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium bg-gray-200">
-            React.js
-          </span>
-          <span className="mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium bg-gray-200">
-            JavaScript
-          </span>
-          <span className="mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium bg-gray-200">
-            TypeScript
-          </span>
-        </li>
+      <ul className="mb-6 flex flex-wrap px-7 list-none">
+        {SkillContents.map((s, i) => (
+          <li key={i} className="list-none my-2">
+            <SkillTag name={s.name} link={s.href} />
+          </li>
+        ))}
       </ul>
     </div>
   )
