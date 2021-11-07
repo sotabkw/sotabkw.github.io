@@ -32,7 +32,7 @@ export const MainProfile: React.VFC = () => {
           <div className="my-5 text-lg text-gray-600 flex">
             <a
               href="mailto:stst819&#64;icloud.com"
-              className="text-lg text-gray-600 flex hover:text-blue-400 transition-colors"
+              className="text-lg text-blue-300 flex hover:text-blue-400 transition-colors"
             >
               <div className="mr-2">
                 <MailIcon />
@@ -42,7 +42,7 @@ export const MainProfile: React.VFC = () => {
           </div>
           <a
             href="https://github.com/watanabe-sota"
-            className="my-5 text-lg text-gray-600 flex hover:text-blue-400 transition-colors"
+            className="my-5 text-lg text-blue-300 flex hover:text-blue-400 transition-colors"
           >
             <div className="mr-2">
               <GithubIcon />
@@ -50,8 +50,8 @@ export const MainProfile: React.VFC = () => {
             @watanabe-sota
           </a>
           <a
-            href="https://github.com/watanabe-sota"
-            className="my-5 text-lg text-gray-600 flex hover:text-blue-400 transition-colors"
+            href="https://twitter.com/sota_bkw"
+            className="my-5 text-lg text-blue-300 flex hover:text-blue-400 transition-colors"
           >
             <div className="mr-2">
               <TwitterIcon />
