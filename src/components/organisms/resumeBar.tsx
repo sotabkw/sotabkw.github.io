@@ -7,6 +7,7 @@ type Props = {
   date: string
   title: string
   incHref: string
+  isPreset: boolean
   body?: string
   isLast?: boolean
   isFirst?: boolean
@@ -22,8 +23,9 @@ type Props = {
  */
 
 export const ResumeBar: React.VFC<Props> = (props) => {
-  const { title, date, body, isLast, isFirst, incHref } = props
+  const { title, date, body, isLast, isFirst, incHref, isPreset } = props
 
+  const className = isPreset ? 'text-blue-400' : 'text-gray-300'
   return (
     <li className="list-none">
       <article>
@@ -48,7 +50,7 @@ export const ResumeBar: React.VFC<Props> = (props) => {
             {isLast ? (
               <svg
                 viewBox="0 0 12 12"
-                className="w-3 h-3 mr-6 overflow-visible text-blue-400"
+                className={`w-3 h-3 mr-6 overflow-visible ${className}`}
               >
                 <circle cx="6" cy="6" r="6" fill="currentColor"></circle>
                 <circle
@@ -70,9 +72,17 @@ export const ResumeBar: React.VFC<Props> = (props) => {
             ) : (
               <svg
                 viewBox="0 0 12 12"
-                className="w-3 h-3 mr-6 overflow-visible text-gray-300"
+                className={`w-3 h-3 mr-6 overflow-visible ${className}`}
               >
                 <circle cx="6" cy="6" r="6" fill="currentColor"></circle>
+                <circle
+                  cx="6"
+                  cy="6"
+                  r="11"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                ></circle>
                 {!isFirst && (
                   <path
                     d="M 6 -6 V -30"
