@@ -21,7 +21,7 @@ type Props = {
  * @param props.isFirst 最初のキャリアかどうか
  */
 
-export const ResumeBar: FC<Props> = (props) => {
+export const ResumeBar: React.VFC<Props> = (props) => {
   const { title, date, body, isLast, isFirst, incHref } = props
 
   return (
