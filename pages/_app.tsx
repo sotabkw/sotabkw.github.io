@@ -6,7 +6,7 @@ import { AppProps } from 'next/app'
 const MyApp: NextPage<AppProps> = ({ Component, pageProps }) => {
   return (
     <div>
-      <Component {...pageProps} />{' '}
+      <Component {...pageProps} />
       <style jsx global>{`
         body {
           font-family: 'Spinnaker';

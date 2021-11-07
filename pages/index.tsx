@@ -1,8 +1,8 @@
 import type { NextPage } from 'next'
 import { PageLayout } from '@components/layout'
 
-const IndexPage: NextPage = () => {
+const Home: NextPage = () => {
   return <PageLayout />
 }
 
-export default IndexPage
+export default Home
