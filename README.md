@@ -1,4 +1,4 @@
-# sooota_bkw
+# watanabe-sota
 
 https://sooota-bkw.vercel.app/
 
