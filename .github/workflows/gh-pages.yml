@@ -1,43 +1,34 @@
-name: github pages
+name: Deploy Next.js app
 
 on:
   push:
-    branches:
-      - master
+    branches: [main]
+  pull_request:
+    branches: [main]
 
 jobs:
-  build-deploy:
-    runs-on: ubuntu-18.04
+  build:
+    runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - name: Checkout repository
+        uses: actions/checkout@v2
 
-      - name: setup node
+      - name: Setup Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: '12.x'
+          node-version: 14.x
 
-      - name: Cache dependencies
-        uses: actions/cache@v2
-        with:
-          path: ~/.npm
-          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
-          restore-keys: |
-            ${{ runner.os }}-node-
-
-      - name: install
+      - name: Install YARN packages
         run: yarn install --frozen-lockfile
 
-      - name: build
+      - name: Build Next.js app
         run: yarn run build
 
-      - name: export
+      - name: Export Next.js app
         run: yarn run export
 
-      - name: add nojekyll
-        run: touch ./out/.nojekyll
-
-      - name: deploy
+      - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./out
+          publish_dir: out
