@@ -5,11 +5,12 @@ import { About } from '@components/organisms/about'
 import { Skill } from '@components/organisms/skill'
 
 export const PageLayout: React.VFC = () => {
-  const JSXArray = [
-    { about: <About /> },
-    { carrier: <Carrier /> },
-    { skill: <Skill /> },
-  ]
+  const JSXArray = {
+    about: <About />,
+    carrier: <Carrier />,
+    skill: <Skill />,
+  }
+
   return (
     <body>
       <div className="mt-6 max-w-screen-lg md:flex mx-auto">
