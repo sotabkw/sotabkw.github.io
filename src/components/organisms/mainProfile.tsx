@@ -9,9 +9,9 @@ export const MainProfile: React.VFC = () => {
     <div className="md:w-1/3 p-2 relative">
       <div className="md:fixed">
         <div className="md:block">
-          <div className="flex justify-center mx-auto mx-4">
+          <div className="flex justify-center  h-auto">
             <img
-              className="rounded-full"
+              className="rounded-full self-start"
               src="/favicon.ico"
               width={150}
               height={150}
