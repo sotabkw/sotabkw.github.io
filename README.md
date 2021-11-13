@@ -1,6 +1,6 @@
-# watanabe-sota.github.io
+# sotabkw.github.io
 
-https://watanabe-sota.github.io/
+https://sotabkw.github.io/
 
 Build with
 
