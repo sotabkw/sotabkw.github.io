@@ -20,7 +20,7 @@ export const MainProfile: React.VFC = () => {
           </div>
           <div className="mb-12 text-center mt-4 justify-center items-center">
             <h1 className="text-2xl text-gray-800 font-semibold tracking-widest">
-              Watanabe Sota
+              Sota　Watanabe
             </h1>
             <div className="md:text-sm text-sm text-gray-600 pt-2">
               Frontend Web Developer
@@ -40,13 +40,13 @@ export const MainProfile: React.VFC = () => {
             </a>
           </div>
           <a
-            href="https://github.com/watanabe-sota"
+            href="https://github.com/sotabkw"
             className="my-5 text-lg text-blue-300 flex hover:text-blue-400 transition-colors"
           >
             <div className="mr-2">
               <GithubIcon />
             </div>
-            @watanabe-sota
+            @sotabkw
           </a>
           <a
             href="https://twitter.com/sota_bkw"
