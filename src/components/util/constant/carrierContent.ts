@@ -14,6 +14,14 @@ export const CareerContents = [
     incHref: 'https://www.pixiv.co.jp/',
   },
   {
+    title: 'cyberagent Inc',
+    date: 'December 2021 - present',
+    body: 'Web front-end internship in winticket',
+    isPresent: true,
+    incHref:
+      'https://www.cyberagent.co.jp/careers/students/event/detail/id=24422',
+  },
+  {
     title: 'tacoms Inc',
     date: 'June 2021 - present',
     body: 'Front-end development of CAMEL, a centralized delivery order management service',
