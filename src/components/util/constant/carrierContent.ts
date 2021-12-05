@@ -12,7 +12,7 @@ export const CareerContents = [
     body: 'Refactoring,Improved web application framework,Improved Core Web Vitals at pixiv encyclopedia',
     isPresent: false,
     incHref: 'https://www.pixiv.co.jp/',
-　},
+  },
   {
     title: 'tacoms Inc',
     date: 'June 2021 - present',
