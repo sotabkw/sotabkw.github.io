@@ -1,21 +1,21 @@
 export const CareerContents = [
   {
     title: 'crunchtimer Inc',
-    date: 'June 2020 - July 2021',
+    date: '2020.6 - 2021.7',
     body: 'Web front-end development in client work',
     isPresent: false,
     incHref: 'https://www.wantedly.com/companies/crunchtimer',
   },
   {
     title: 'pixiv Inc',
-    date: 'October 2021 - November 2021',
+    date: '2021.10 - 2021.11',
     body: 'Refactoring,Improved web application framework,Improved Core Web Vitals at pixiv encyclopedia',
     isPresent: false,
     incHref: 'https://www.pixiv.co.jp/',
   },
   {
     title: 'cyberagent Inc',
-    date: 'December 2021 - present',
+    date: '2021.12 - present',
     body: 'Web front-end internship in winticket',
     isPresent: true,
     incHref:
@@ -23,7 +23,7 @@ export const CareerContents = [
   },
   {
     title: 'tacoms Inc',
-    date: 'June 2021 - present',
+    date: '2021.6 - present',
     body: 'Front-end development of CAMEL, a centralized delivery order management service',
     isPresent: true,
     incHref:
