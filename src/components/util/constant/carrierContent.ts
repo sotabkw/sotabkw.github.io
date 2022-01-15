@@ -15,7 +15,7 @@ export const CareerContents = [
   },
   {
     title: 'cyberagent Inc',
-    date: '2021.12 - present',
+    date: '2021.12 - 2021.12',
     body: 'Web front-end internship in winticket',
     isPresent: true,
     incHref:
