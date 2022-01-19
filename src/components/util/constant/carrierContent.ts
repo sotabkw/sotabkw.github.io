@@ -17,7 +17,7 @@ export const CareerContents = [
     title: 'cyberagent Inc',
     date: '2021.12 - 2021.12',
     body: 'Web front-end internship in winticket',
-    isPresent: true,
+    isPresent: false,
     incHref:
       'https://www.cyberagent.co.jp/careers/students/event/detail/id=24422',
   },
