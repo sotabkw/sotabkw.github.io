@@ -3,6 +3,14 @@ import { MainProfile } from '@components/organisms/mainProfile'
 import { Carrier } from '@components/organisms/carrier'
 import { About } from '@components/organisms/about'
 import { Skill } from '@components/organisms/skill'
+import dynamic from 'next/dynamic'
+
+const ScrollRevealContainer = dynamic(
+  import('../organisms/scrollRevealContainer'),
+  {
+    ssr: false,
+  }
+)
 
 export const PageLayout: React.VFC = () => {
   const JSXArray = {
@@ -19,7 +27,7 @@ export const PageLayout: React.VFC = () => {
           <ul>
             {Object.values(JSXArray).map((e, index) => (
               <li key={index} className="my-8 list-none">
-                {e}
+                <ScrollRevealContainer>{e}</ScrollRevealContainer>
               </li>
             ))}
           </ul>
