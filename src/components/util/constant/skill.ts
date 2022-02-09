@@ -28,6 +28,10 @@ export const SkillContents = [
     href: 'https://docs.swift.org/swift-book/index.html',
   },
   {
+    name: 'Go',
+    href: 'https://go.dev/',
+  },
+  {
     name: 'Atomic Design',
   },
   {
