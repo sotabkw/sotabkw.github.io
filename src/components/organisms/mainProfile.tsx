@@ -20,10 +20,10 @@ export const MainProfile: React.VFC = () => {
           </div>
           <div className="mb-12 text-center mt-4 justify-center items-center">
             <h1 className="text-2xl text-gray-800 font-semibold tracking-widest">
-              Sota　Watanabe
+              Sota Watanabe
             </h1>
             <div className="md:text-sm text-sm text-gray-600 pt-2">
-              Frontend Web Developer
+              Software Engineer
             </div>
           </div>
         </div>
