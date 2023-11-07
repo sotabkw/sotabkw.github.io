@@ -201,10 +201,10 @@
   resolved "https://registry.yarnpkg.com/@types/scheduler/-/scheduler-0.16.2.tgz#1a62f89525723dde24ba1b01b092bf5df8ad4d39"
   integrity sha512-hppQEBDmlwhFAXKJX2KnWLYu5yMfi91yazPb2l+lbJiwW+wdo1gNeRA+3RgNSO39WYX2euey41KEwnqesU2Jew==
 
-"@types/scrollreveal@0.0.7":
-  version "0.0.7"
-  resolved "https://registry.yarnpkg.com/@types/scrollreveal/-/scrollreveal-0.0.7.tgz#cca18ca13093fc0c9b5ba6defed7374e6189196a"
-  integrity sha512-Bv/cBFpJE+WTUOViqT7y29n7Vpp+KAGF/UUx4DZx7JwAfHarBl/xGytum1+xMZBRjANcHHfDM9+7LQGilEj2gQ==
+"@types/scrollreveal@0.0.11":
+  version "0.0.11"
+  resolved "https://registry.yarnpkg.com/@types/scrollreveal/-/scrollreveal-0.0.11.tgz#40e33ec9e269554c2b0c5f5b32ed176629bcd124"
+  integrity sha512-GDOESLkVNyd5FIS980N9rDtp45L7jfyvbDuumtaMXMPfJOFOk/7ADNvXaL/NBggXJHQJSgNNHsJBrQ2mTE7+cA==
 
 "@typescript-eslint/parser@^5.21.0":
   version "5.22.0"
